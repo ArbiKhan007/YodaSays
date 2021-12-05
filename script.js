@@ -3,7 +3,7 @@ const formButton = document.getElementById("form-button");
 const result = document.querySelector(".result");
 
 function handleClick() {
-  const api = `https://api.funtranslations.com/translate/piglatin?text=${userInput.value}`;
+  const api = `https://api.funtranslations.com/translate/yoda.json?text=${userInput.value}`;
 
   fetch(api)
     .then((res) => res.json())

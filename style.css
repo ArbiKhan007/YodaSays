@@ -1,3 +1,8 @@
+:root {
+  --main-green: #2ab26a;
+  --main-blue: #2b3464;
+}
+
 body {
   margin: 0;
   font-family: fantasy;
@@ -17,7 +22,7 @@ body {
 
 .main-heading {
   text-align: center;
-  background-color: aqua;
+  background-color: var(--main-green);
   padding: 1rem;
   color: #fff;
 }
@@ -28,13 +33,15 @@ body {
   min-width: 200px;
   height: 300px;
   width: 800px;
+  color: #fff;
+  background-color: var(--main-blue);
 }
 
 button {
   padding: 18px 12px;
   margin: 3px 2px;
   display: block;
-  background-color: #1a7753;
+  background-color: var(--main-green);
   border: none;
   color: #fff;
 }
